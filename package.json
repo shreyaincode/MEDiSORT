@@ -1,0 +1,16 @@
+{
+  "name": "medisort-backend",
+  "version": "1.0.0",
+  "description": "Backend for the MediSort SIH prototype — serves the frontend and calls Qwen VL (free) via OpenRouter for waste image classification.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
